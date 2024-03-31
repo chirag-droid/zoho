@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
       lib: {
           entry: path.resolve(__dirname, 'src/lib/index.ts'),
-          name: 'survey',
+          name: '@zoho/survey',
           formats: ['es', 'umd'],
           fileName: (format) => `survey.${format}.js`
       },

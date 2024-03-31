@@ -1,6 +1,5 @@
 {
-  "name": "survey",
-  "private": true,
+  "name": "@zoho/survey",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -17,6 +16,7 @@
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
+    "@types/node": "^20.12.2",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
@@ -34,11 +34,11 @@
   ],
   "main": "./dist/survey.umd.js",
   "module": "./dist/survey.es.js",
-  "types": "./dist/survey.d.ts",
   "exports": {
     ".": {
       "import": "./dist/survey.es.js",
-      "require": "./dist/survey.umd.js"
+      "require": "./dist/survey.umd.js",
+      "types": "./dist/survey.d.ts"
     }
   }
 }

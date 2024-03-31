@@ -1,7 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { ZohoSurvey, ZohoSurveyProps, useSurvey } from 'survey'
+import { ZohoSurvey, ZohoSurveyProps, useSurvey } from '@zoho/survey'
 import { useState } from 'react'
 
 function App() {
