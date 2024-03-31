@@ -1,0 +1,14 @@
+{
+  "name": "zoho",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Unofficial Zoho API library for use with React",
+  "author": "Chirag Singla<chiragsingla@zohomail.in>",
+  "license": "MIT",
+  "workspaces": {
+      "packages": [
+          "packages/*",
+          "site"
+      ]
+  }
+}
